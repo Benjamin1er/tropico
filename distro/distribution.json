@@ -1,0 +1,43 @@
+{
+  "version": "1.0.0",
+  "discord": {
+    "clientId": "123456789012345678",
+    "smallImageText": "BenjaCraft",
+    "smallImageKey": "grass"
+  },
+  "servers": [
+    {
+      "id": "Tropico",
+      "name": "Tropico",
+      "description": "Serveur moddé en 1.20.10",
+      "icon": "https://tonsite.com/logo.png",
+      "version": "1.0.0",
+      "address": "play.benjacraft.fr",
+      "minecraftVersion": "1.20.10",
+      "mainServer": true,
+      "autoconnect": true,
+      "modules": [
+        {
+          "id": "net.minecraftforge:forge:1.20.10-60.0.5",
+          "name": "Minecraft Forge 1.20.10",
+          "type": "ForgeHosted",
+          "artifact": {
+            "size": 5493362,
+            "MD5": "c5cde093d1583be7b19c2a5f01319e02",
+            "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.10-60.0.5/forge-1.21.10-60.0.5-installer.jar"
+          }
+        },
+        {
+          "id": "jei:jei:15.3.0",
+          "name": "Just Enough Items",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 823145,
+            "MD5": "abc123def456789",
+            "url": "https://cdn.modrinth.com/data/u6dRKJwZ/versions/ANITGgBf/jei-1.21.10-neoforge-26.0.0.1.jar"
+          }
+        }
+      ]
+    }
+  ]
+}
