@@ -9,32 +9,32 @@
     {
       "id": "Tropico",
       "name": "Tropico",
-      "description": "Serveur moddé en 1.20.10",
+      "description": "Serveur moddé en 1.21.9",
       "icon": "https://tonsite.com/logo.png",
       "version": "1.0.0",
-      "address": "play.benjacraft.fr",
-      "minecraftVersion": "1.20.10",
+      "address": "51.89.219.115:3226",
+      "minecraftVersion": "1.21.9",
       "mainServer": true,
       "autoconnect": true,
       "modules": [
         {
-          "id": "net.minecraftforge:forge:1.20.10-60.0.5",
-          "name": "Minecraft Forge 1.20.10",
+          "id": "net.minecraftforge:forge:1.20.10-59.0.5",
+          "name": "Minecraft Forge 1.21.9",
           "type": "ForgeHosted",
           "artifact": {
             "size": 5493362,
             "MD5": "c5cde093d1583be7b19c2a5f01319e02",
-            "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.10-60.0.5/forge-1.21.10-60.0.5-installer.jar"
+            "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.9-59.0.5/forge-1.21.9-59.0.5-installer.jar"
           }
         },
         {
-          "id": "jei:jei:15.3.0",
-          "name": "Just Enough Items",
+          "id": "bop",
+          "name": "Biomes O Plenty",
           "type": "ForgeMod",
           "artifact": {
             "size": 823145,
             "MD5": "abc123def456789",
-            "url": "mods/AmbientSounds_NEOFORGE_v6.2.2_mc1.21.9.jar"
+            "url": "mods/BiomesOPlenty-forge-1.21.9-21.8.0.20.jar"
           }
         }
       ]
