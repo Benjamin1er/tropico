@@ -32,9 +32,9 @@
           "name": "Biomes O Plenty",
           "type": "ForgeMod",
           "artifact": {
-            "size": 823145,
-            "MD5": "abc123def456789",
-            "url": "mods/BiomesOPlenty-forge-1.21.9-21.8.0.20.jar"
+            "size": 22084,
+            "MD5": "ea8d48fefb883764b2c910be1aac458d",
+            "url": "https://benjamin1er.github.io/tropico/distro/mods/BiomesOPlenty-forge-1.21.9-21.8.0.20.jar"
           }
         }
       ]
